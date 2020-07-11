@@ -1,0 +1,39 @@
+.hello {
+    text-align: center;
+    transform: translateY(100px);
+    background-color: aqua;
+    animation-name: yash;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    display: flexbox;
+}
+
+@keyframes yash {
+    0% {
+        transform: translateX(0px);
+        background-color: aqua;
+    }
+
+    25% {
+        transform: translateX(200px);
+        background-color: brown;
+    }
+
+   50% {
+       transform: translateX(200px);
+       background-color: burlywood;
+   }
+
+   75% {
+       transform: translateX(-200px);
+       background-color: coral;
+   }
+
+
+   100% {
+       transform: translateX(-200px);
+       background-color: cornsilk;
+   }
+
+}
